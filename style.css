@@ -1,0 +1,11 @@
+tr,
+th,
+table,
+td {
+    border: 2px solid rgb(164, 9, 9);
+    background-color: rgb(9, 59, 59);
+}
+
+table {
+    border-radius: 4%;
+}

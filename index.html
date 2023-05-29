@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Song Management</title>
+</head>
+
+<body>
+    <form id="musicForm">
+        <label for="song">Song:</label>
+        <input type="text" id="song" required><br>
+        <label for="album">Album:</label>
+        <input type="text" id="album" required><br>
+        <label for="artist">Artist:</label>
+        <input type="text" id="artist" required><br>
+        <button type="submit" id="submitsong">Add Song</button>
+
+    </form>
+
+    <table id="musicTable">
+        <tr>
+            <th>ID</th>
+            <th>Song</th>
+            <th>Album</th>
+            <th>Artist</th>
+            <th>Action</th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
